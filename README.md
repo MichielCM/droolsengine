@@ -28,7 +28,7 @@ DroolsEngine can be initialized from Excel files (XLS) provided as an array of b
 Byte[] excelFile;
 
 new RuleEngine(
-	ResourceType.DRL,
+	ResourceType.XLS,
 	new Byte[] {
 		excelFile
 	}
